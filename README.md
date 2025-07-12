@@ -1,12 +1,29 @@
-# React + Vite
+# 🥩 Leetcode Roaster | Roast Your Coding Stats 😎🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun React-based web app that fetches **LeetCode user stats** using the **public GraphQL API** and humorously roasts your problem-solving journey.
 
-Currently, two official plugins are available:
+Just enter your Leetcode username and get a sassy, sarcastic, or even brutally honest roast based on your coding stats.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 What It Does
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎯 Fetches your Leetcode stats by username.
+- 🔍 Uses **Leetcode’s public GraphQL API** directly—no backend needed!
+- 😂 Generates funny roast messages based on your:
+  - Number of problems solved
+  - Easy/Medium/Hard ratio
+  - Acceptance rate
+  - Ranking
+- 🧼 Clean, responsive UI using **React + Tailwind CSS**
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **API**: Leetcode Public GraphQL
+- **Data Fetching**: Axios
+- **Roast Logic**: Custom logic to generate witty roast messages based on your stats
+
+---
